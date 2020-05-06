@@ -1,24 +1,53 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import { mapCandidatesForFrontEnd } from "./mapper-service/mapper-service";
+import "./App.css";
 
 function App() {
+  const [candidates, setCandidates] = useState([]);
+  const [filterSearch, setFilterSearch] = useState("");
+
+  useEffect(() => {
+    fetchCandidates();
+  }, []);
+
+  async function fetchCandidates() {
+    const candidatesPromise = await fetch(
+      "https://private-anon-b9eedd7f78-sakura3.apiary-mock.com/applicants"
+    );
+
+    const candidatesObj = await candidatesPromise.json();
+    const newCandidates = mapCandidatesForFrontEnd(candidatesObj);
+    setCandidates(newCandidates);
+  }
+
+  function handleFilterSearch(e) {
+    setFilterSearch(e.target.value);
+  }
+
+  let filteredCandidates = candidates.filter(({ firstName, lastName }) => {
+    let fullName = `${firstName}${lastName}`;
+    return fullName.toLowerCase().includes(filterSearch.toLowerCase());
+  });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="navigator-container"></div>
+      <input
+        onChange={handleFilterSearch}
+        placeholder="Search for your candidate here"
+      ></input>
+      <div className="candidate-cards-container">
+        {filteredCandidates.map(
+          ({ id, firstName, lastName, creditIndicator }) => (
+            <div className="card-container" key={id}>
+              <div className="candidate-name">
+                {firstName} {lastName}
+              </div>
+              <div>{creditIndicator}</div>
+            </div>
+          )
+        )}
+      </div>
     </div>
   );
 }
