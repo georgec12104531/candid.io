@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import CardList from "./components/card-list/card-list.component";
+
 import { mapCandidatesForFrontEnd } from "./mapper-service/mapper-service";
 import "./App.css";
 
@@ -36,18 +38,7 @@ function App() {
         onChange={handleFilterSearch}
         placeholder="Search for your candidate here"
       ></input>
-      <div className="candidate-cards-container">
-        {filteredCandidates.map(
-          ({ id, firstName, lastName, creditIndicator }) => (
-            <div className="card-container" key={id}>
-              <div className="candidate-name">
-                {firstName} {lastName}
-              </div>
-              <div>{creditIndicator}</div>
-            </div>
-          )
-        )}
-      </div>
+      <CardList filteredCandidates={filteredCandidates}></CardList>
     </div>
   );
 }

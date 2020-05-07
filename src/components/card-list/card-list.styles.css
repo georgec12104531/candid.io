@@ -1,0 +1,7 @@
+.candidate-cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+}
