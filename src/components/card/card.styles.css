@@ -21,4 +21,30 @@
 .candidate-name {
   color: #3b5e6e;
   font-size: 28px;
+  font-weight: 700;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.star-container {
+  display: flex;
+  align-items: center;
+  color: #224554;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.star {
+  transform: scale(0.6);
+}
+
+.credit-score {
+  font-size: 15px;
+  font-weight: 500;
+  color: #224554;
 }

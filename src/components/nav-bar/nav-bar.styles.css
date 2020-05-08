@@ -1,0 +1,17 @@
+.nav-main-container {
+  height: 50px;
+  width: 100%;
+  box-shadow: 0px 0px 8px 2px lightgrey;
+}
+
+input {
+  height: 30px;
+  width: 214px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin: 25px;
+  border-bottom: 1px solid #277ba0;
+  text-decoration: none;
+  outline: none;
+}

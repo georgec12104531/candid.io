@@ -8,7 +8,18 @@ const Card = ({ candidate }) => {
       <div className="candidate-name">
         {firstName} {lastName}
       </div>
-      <div>{creditIndicator}</div>
+      <div className="rating-container">
+        <div class="star-container">
+          <div>{creditIndicator}</div>
+          <div className="star">
+            <img
+              alt="star"
+              src="https://img.icons8.com/doodle/48/000000/star--v1.png"
+            />
+          </div>
+        </div>
+        <div className="credit-score">Credit Score</div>
+      </div>
     </div>
   );
 };
