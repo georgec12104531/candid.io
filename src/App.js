@@ -9,6 +9,8 @@ import "./App.css";
 function App() {
   const [candidates, setCandidates] = useState([]);
   const [filterSearch, setFilterSearch] = useState("");
+  const [currentFilter, setCurrentFilter] = useState("desc");
+  // const curren
 
   useEffect(() => {
     fetchCandidates();
@@ -28,6 +30,26 @@ function App() {
     setFilterSearch(e.target.value);
   }
 
+  function handleFilterChange() {
+    console.log(currentFilter);
+    let newSort;
+    if (currentFilter === "desc") {
+      setCurrentFilter("asc");
+      newSort = candidates.sort(
+        (a, b) => a.creditIndicator - b.creditIndicator
+      );
+    } else if (currentFilter === "asc") {
+      setCurrentFilter("desc");
+      newSort = candidates.sort(
+        (a, b) => b.creditIndicator - a.creditIndicator
+      );
+    }
+
+    console.log(newSort);
+
+    setCandidates(newSort);
+  }
+
   let filteredCandidates = candidates.filter(({ firstName, lastName }) => {
     let fullName = `${firstName}${lastName}`;
     return fullName.toLowerCase().includes(filterSearch.toLowerCase());
@@ -35,12 +57,23 @@ function App() {
 
   return (
     <div className="App">
+      <button onClick={handleFilterChange}>button</button>
       <NavBar></NavBar>
       <SearchBar handleFilterSearch={handleFilterSearch}></SearchBar>
       <CardList filteredCandidates={filteredCandidates}></CardList>
       <a href="https://icons8.com/icon/80355/star" className="credit">
         Star icon by Icons8
       </a>
+      <div>
+        Icons made by{" "}
+        <a href="https://www.flaticon.com/free-icon/sort_2223770" title="bqlqn">
+          bqlqn
+        </a>{" "}
+        from{" "}
+        <a href="https://www.flaticon.com/" title="Flaticon">
+          www.flaticon.com
+        </a>
+      </div>
     </div>
   );
 }

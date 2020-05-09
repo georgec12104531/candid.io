@@ -9,7 +9,7 @@ const Card = ({ candidate }) => {
         {firstName} {lastName}
       </div>
       <div className="rating-container">
-        <div class="star-container">
+        <div className="star-container">
           <div>{creditIndicator}</div>
           <div className="star">
             <img

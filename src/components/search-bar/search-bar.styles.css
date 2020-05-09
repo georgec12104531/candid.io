@@ -1,0 +1,42 @@
+.search-bar-main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 66px;
+}
+
+.search-icon {
+  margin-top: 25px;
+  transform: scale(0.5);
+}
+
+input {
+  height: 30px;
+  width: 247px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid black;
+  margin: 25px 0 0 0;
+  text-decoration: none;
+  outline: none;
+}
+
+.sort-container {
+  cursor: pointer;
+  display: flex;
+  margin-top: 25px;
+}
+
+.sort {
+  margin: 10px -12px 0 10px;
+}
+
+.sort-icon {
+  transform: scale(0.4);
+}
