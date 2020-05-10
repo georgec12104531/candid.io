@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactComponent as UpArrow } from "../../icons/up-arrow.svg";
-
+import { ReactComponent as DownArrow } from "../../icons/down-arrow.svg";
 import "./search-bar.styles.css";
 
 const SearchBar = ({ handleFilterSearch }) => {
@@ -19,7 +19,13 @@ const SearchBar = ({ handleFilterSearch }) => {
 
         <div className="sort-container">
           <div className="sort">Sort</div>
-          <UpArrow className="sort-icon"></UpArrow>
+          <div>
+            {false === true ? (
+              <UpArrow className="sort-icon"></UpArrow>
+            ) : (
+              <DownArrow className="sort-icon"></DownArrow>
+            )}
+          </div>
         </div>
       </div>
     </div>

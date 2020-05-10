@@ -10,7 +10,6 @@ function App() {
   const [candidates, setCandidates] = useState([]);
   const [filterSearch, setFilterSearch] = useState("");
   const [currentFilter, setCurrentFilter] = useState("desc");
-  // const curren
 
   useEffect(() => {
     fetchCandidates();
@@ -31,7 +30,6 @@ function App() {
   }
 
   function handleFilterChange() {
-    console.log(currentFilter);
     let newSort;
     if (currentFilter === "desc") {
       setCurrentFilter("asc");
@@ -44,8 +42,6 @@ function App() {
         (a, b) => b.creditIndicator - a.creditIndicator
       );
     }
-
-    console.log(newSort);
 
     setCandidates(newSort);
   }
