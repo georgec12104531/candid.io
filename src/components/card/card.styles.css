@@ -1,16 +1,16 @@
 .card-container {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
   height: 200px;
   width: 400px;
   margin: 20px;
   padding: 1rem;
-  border-style: solid;
-  border-color: #277ba0;
+  border-bottom: 2px solid gold;
   border-radius: 10px;
-  background-color: #fff;
-  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: rgb(33, 55, 56);
+  box-shadow: 6px 4px 4px lightgrey;
   transition: transform 0.25s ease-out;
 }
 
@@ -19,9 +19,10 @@
 }
 
 .candidate-name {
-  color: #3b5e6e;
+  color: white;
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 300;
+  padding-left: 13px;
 }
 
 .rating-container {
@@ -34,10 +35,12 @@
 .star-container {
   display: flex;
   align-items: center;
-  color: #3b5e6e;
+  color: white;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
+  padding-left: 13px;
 }
+
 .star {
   transform: scale(0.6);
 }
@@ -45,5 +48,9 @@
 .credit-score {
   font-size: 15px;
   font-weight: 500;
-  color: #3b5e6e;
+  color: white;
+}
+
+.credit-card-chip {
+  transform: scale(0.8);
 }
