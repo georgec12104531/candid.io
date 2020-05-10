@@ -1,6 +1,8 @@
 .search-bar-main-container {
   display: flex;
   justify-content: center;
+  margin-bottom: 35px;
+  margin-top: 26px;
 }
 
 .search-bar-container {
@@ -12,16 +14,18 @@
 
 .search-icon {
   margin-top: 25px;
-  transform: scale(0.5);
+  transform: scale(0.7);
 }
 
-input {
+.search-bar-main-container .search-bar-container input {
+  font-size: 21px;
+  color: #3b5e6e;
   height: 30px;
-  width: 247px;
+  width: 336px;
   border-top: none;
   border-right: none;
   border-left: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #277ba0;
   margin: 25px 0 0 0;
   text-decoration: none;
   outline: none;
@@ -30,11 +34,14 @@ input {
 .sort-container {
   cursor: pointer;
   display: flex;
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 .sort {
+  color: #277ba0;
   margin: 10px -12px 0 10px;
+  font-size: 17px;
+  font-weight: 500;
 }
 
 .sort-icon {

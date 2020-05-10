@@ -53,14 +53,17 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={handleFilterChange}>button</button>
       <NavBar></NavBar>
-      <SearchBar handleFilterSearch={handleFilterSearch}></SearchBar>
+      <SearchBar
+        handleFilterSearch={handleFilterSearch}
+        handleFilterChange={handleFilterChange}
+        currentFilter={currentFilter}
+      ></SearchBar>
       <CardList filteredCandidates={filteredCandidates}></CardList>
       <a href="https://icons8.com/icon/80355/star" className="credit">
         Star icon by Icons8
       </a>
-      <div>
+      <div className="credit">
         Icons made by{" "}
         <a href="https://www.flaticon.com/free-icon/sort_2223770" title="bqlqn">
           bqlqn

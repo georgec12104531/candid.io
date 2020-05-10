@@ -34,7 +34,7 @@
 .star-container {
   display: flex;
   align-items: center;
-  color: #224554;
+  color: #3b5e6e;
   font-size: 20px;
   font-weight: 500;
 }
@@ -45,5 +45,5 @@
 .credit-score {
   font-size: 15px;
   font-weight: 500;
-  color: #224554;
+  color: #3b5e6e;
 }

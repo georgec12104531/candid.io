@@ -3,7 +3,11 @@ import { ReactComponent as UpArrow } from "../../icons/up-arrow.svg";
 import { ReactComponent as DownArrow } from "../../icons/down-arrow.svg";
 import "./search-bar.styles.css";
 
-const SearchBar = ({ handleFilterSearch }) => {
+const SearchBar = ({
+  handleFilterSearch,
+  handleFilterChange,
+  currentFilter,
+}) => {
   return (
     <div className="search-bar-main-container">
       <div className="search-bar-container">
@@ -16,11 +20,10 @@ const SearchBar = ({ handleFilterSearch }) => {
           onChange={handleFilterSearch}
           placeholder="Search for your candidate here..."
         ></input>
-
-        <div className="sort-container">
+        <div className="sort-container" onClick={handleFilterChange}>
           <div className="sort">Sort</div>
           <div>
-            {false === true ? (
+            {currentFilter === "asc" ? (
               <UpArrow className="sort-icon"></UpArrow>
             ) : (
               <DownArrow className="sort-icon"></DownArrow>
