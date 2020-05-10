@@ -47,3 +47,39 @@
 .sort-icon {
   transform: scale(0.4);
 }
+
+.tooltip {
+  position: relative;
+  cursor: help;
+  color: #3b5e6e;
+  display: inline-block;
+  border-bottom: 1px dotted #3b5e6e;
+  margin-top: 25px;
+}
+
+.asdf {
+  padding-left: 15px;
+}
+
+.tooltip .tooltiptext {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 10px;
+  flex-direction: column;
+  visibility: hidden;
+  width: 120px;
+  top: -5px;
+  left: 158px;
+  margin-left: -60px;
+  background-color: white;
+  color: #3b5e6e;
+  padding: 5px 0;
+  border-radius: 6px;
+  border: 1px solid teal;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
