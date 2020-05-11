@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/candid.io/precache-manifest.7f8ce3c5444228a1e3c15eb81a3a9f6b.js"
+  "/candid.io/precache-manifest.5f09a215f5146f1d3412cad0e99b60f4.js"
 );
 
 self.addEventListener('message', (event) => {
