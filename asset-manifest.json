@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/candid.io/static/css/main.4b3fbb29.chunk.css",
-    "main.js": "/candid.io/static/js/main.05c71a1c.chunk.js",
-    "main.js.map": "/candid.io/static/js/main.05c71a1c.chunk.js.map",
+    "main.css": "/candid.io/static/css/main.4c46c0b2.chunk.css",
+    "main.js": "/candid.io/static/js/main.6b7e64b6.chunk.js",
+    "main.js.map": "/candid.io/static/js/main.6b7e64b6.chunk.js.map",
     "runtime-main.js": "/candid.io/static/js/runtime-main.8a005c87.js",
     "runtime-main.js.map": "/candid.io/static/js/runtime-main.8a005c87.js.map",
     "static/js/2.d1a38bd0.chunk.js": "/candid.io/static/js/2.d1a38bd0.chunk.js",
     "static/js/2.d1a38bd0.chunk.js.map": "/candid.io/static/js/2.d1a38bd0.chunk.js.map",
     "index.html": "/candid.io/index.html",
-    "precache-manifest.cb131d9a4813146d02f79716fc9e9b00.js": "/candid.io/precache-manifest.cb131d9a4813146d02f79716fc9e9b00.js",
+    "precache-manifest.7f8ce3c5444228a1e3c15eb81a3a9f6b.js": "/candid.io/precache-manifest.7f8ce3c5444228a1e3c15eb81a3a9f6b.js",
     "service-worker.js": "/candid.io/service-worker.js",
-    "static/css/main.4b3fbb29.chunk.css.map": "/candid.io/static/css/main.4b3fbb29.chunk.css.map",
+    "static/css/main.4c46c0b2.chunk.css.map": "/candid.io/static/css/main.4c46c0b2.chunk.css.map",
     "static/js/2.d1a38bd0.chunk.js.LICENSE.txt": "/candid.io/static/js/2.d1a38bd0.chunk.js.LICENSE.txt",
     "static/media/down-arrow.56ebd930.svg": "/candid.io/static/media/down-arrow.56ebd930.svg",
     "static/media/up-arrow.7461d5b8.svg": "/candid.io/static/media/up-arrow.7461d5b8.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.8a005c87.js",
     "static/js/2.d1a38bd0.chunk.js",
-    "static/css/main.4b3fbb29.chunk.css",
-    "static/js/main.05c71a1c.chunk.js"
+    "static/css/main.4c46c0b2.chunk.css",
+    "static/js/main.6b7e64b6.chunk.js"
   ]
 }
