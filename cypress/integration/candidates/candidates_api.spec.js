@@ -1,5 +1,5 @@
 describe("Get candidates", () => {
-  it("Gets candidates and renders the data on the page", () => {
+  it("Gets candidates and renders the accurate count of candidates on the page", () => {
     cy.visit("http://localhost:3000");
     cy.request("http://private-041255-sakura3.apiary-mock.com/applicants").then(
       (request) => {
