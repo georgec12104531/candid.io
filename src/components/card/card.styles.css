@@ -36,7 +36,7 @@
   display: flex;
   align-items: center;
   color: white;
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 300;
   padding-left: 13px;
 }
@@ -46,7 +46,7 @@
 }
 
 .credit-score {
-  font-size: 15px;
+  font-size: 21px;
   font-weight: 300;
   color: white;
 }
