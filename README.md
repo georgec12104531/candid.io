@@ -1,3 +1,6 @@
+## Link
+https://georgec12104531.github.io/candid.io/
+
 ## Design Decisions
 - Folder Structures 
   1. the component folder stores all reusable react components. 
