@@ -30,12 +30,12 @@ const SearchBar = ({
             )}
           </div>
         </div>
-        <div class="tooltip">
+        <div className="tooltip">
           Credit Score?
-          <span class="tooltiptext">
-            <div className="asdf">Bad: 0-5</div>
-            <div className="asdf">Neutral: 5-7</div>
-            <div className="asdf">Good: 7-10</div>
+          <span className="tooltiptext">
+            <div className="tooltiptext-layout">Bad: 0-5</div>
+            <div className="tooltiptext-layout">Neutral: 5-7</div>
+            <div className="tooltiptext-layout">Good: 7-10</div>
           </span>
         </div>
       </div>
