@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/candid.io/static/css/main.d3b9d3dd.chunk.css",
-    "main.js": "/candid.io/static/js/main.6b7e64b6.chunk.js",
-    "main.js.map": "/candid.io/static/js/main.6b7e64b6.chunk.js.map",
-    "runtime-main.js": "/candid.io/static/js/runtime-main.8a005c87.js",
-    "runtime-main.js.map": "/candid.io/static/js/runtime-main.8a005c87.js.map",
-    "static/js/2.d1a38bd0.chunk.js": "/candid.io/static/js/2.d1a38bd0.chunk.js",
-    "static/js/2.d1a38bd0.chunk.js.map": "/candid.io/static/js/2.d1a38bd0.chunk.js.map",
-    "index.html": "/candid.io/index.html",
-    "precache-manifest.5f09a215f5146f1d3412cad0e99b60f4.js": "/candid.io/precache-manifest.5f09a215f5146f1d3412cad0e99b60f4.js",
-    "service-worker.js": "/candid.io/service-worker.js",
-    "static/css/main.d3b9d3dd.chunk.css.map": "/candid.io/static/css/main.d3b9d3dd.chunk.css.map",
-    "static/js/2.d1a38bd0.chunk.js.LICENSE.txt": "/candid.io/static/js/2.d1a38bd0.chunk.js.LICENSE.txt",
-    "static/media/down-arrow.56ebd930.svg": "/candid.io/static/media/down-arrow.56ebd930.svg",
-    "static/media/up-arrow.7461d5b8.svg": "/candid.io/static/media/up-arrow.7461d5b8.svg"
+    "main.css": ".git /static/css/main.6cc7f790.chunk.css",
+    "main.js": ".git /static/js/main.29d41347.chunk.js",
+    "main.js.map": ".git /static/js/main.29d41347.chunk.js.map",
+    "runtime-main.js": ".git /static/js/runtime-main.54482ced.js",
+    "runtime-main.js.map": ".git /static/js/runtime-main.54482ced.js.map",
+    "static/js/2.d1a38bd0.chunk.js": ".git /static/js/2.d1a38bd0.chunk.js",
+    "static/js/2.d1a38bd0.chunk.js.map": ".git /static/js/2.d1a38bd0.chunk.js.map",
+    "index.html": ".git /index.html",
+    "precache-manifest.d623d1cc810bdcc6868eaba1b61b3527.js": ".git /precache-manifest.d623d1cc810bdcc6868eaba1b61b3527.js",
+    "service-worker.js": ".git /service-worker.js",
+    "static/css/main.6cc7f790.chunk.css.map": ".git /static/css/main.6cc7f790.chunk.css.map",
+    "static/js/2.d1a38bd0.chunk.js.LICENSE.txt": ".git /static/js/2.d1a38bd0.chunk.js.LICENSE.txt",
+    "static/media/down-arrow.56ebd930.svg": ".git /static/media/down-arrow.56ebd930.svg",
+    "static/media/up-arrow.7461d5b8.svg": ".git /static/media/up-arrow.7461d5b8.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8a005c87.js",
+    "static/js/runtime-main.54482ced.js",
     "static/js/2.d1a38bd0.chunk.js",
-    "static/css/main.d3b9d3dd.chunk.css",
-    "static/js/main.6b7e64b6.chunk.js"
+    "static/css/main.6cc7f790.chunk.css",
+    "static/js/main.29d41347.chunk.js"
   ]
 }
