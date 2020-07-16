@@ -17,7 +17,7 @@ function App() {
 
   async function fetchCandidates() {
     const candidatesPromise = await fetch(
-      "https://private-anon-b9eedd7f78-sakura3.apiary-mock.com/applicants"
+      "https://jsonplaceholder.typicode.com/users"
     );
 
     const candidatesObj = await candidatesPromise.json();
