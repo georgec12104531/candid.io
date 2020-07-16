@@ -31,24 +31,20 @@ function App() {
 
   function handleFilterChange() {
     let newSort;
+    console.log("candidates", candidates);
     if (currentFilter === "desc") {
       setCurrentFilter("asc");
-      newSort = candidates.sort(
-        (a, b) => a.creditIndicator - b.creditIndicator
-      );
+      newSort = candidates.sort((a, b) => (a.name > b.name ? 1 : -1));
     } else if (currentFilter === "asc") {
       setCurrentFilter("desc");
-      newSort = candidates.sort(
-        (a, b) => b.creditIndicator - a.creditIndicator
-      );
+      newSort = candidates.sort((a, b) => (a.name > b.name ? -1 : 1));
     }
 
     setCandidates(newSort);
   }
 
-  let filteredCandidates = candidates.filter(({ firstName, lastName }) => {
-    let fullName = `${firstName}${lastName}`;
-    return fullName.toLowerCase().includes(filterSearch.toLowerCase());
+  let filteredCandidates = candidates.filter(({ name }) => {
+    return name.toLowerCase().includes(filterSearch.toLowerCase());
   });
 
   return (
