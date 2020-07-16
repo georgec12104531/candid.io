@@ -2,7 +2,7 @@
   "name": "candid.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://georgec12104531.github.io/candid.io",
+  "homepage": ".git ",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
