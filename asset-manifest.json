@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/candid.io/static/css/main.976beab6.chunk.css",
+    "main.css": "/candid.io/static/css/main.904c906e.chunk.css",
     "main.js": "/candid.io/static/js/main.bc630df3.chunk.js",
     "main.js.map": "/candid.io/static/js/main.bc630df3.chunk.js.map",
     "runtime-main.js": "/candid.io/static/js/runtime-main.8a005c87.js",
@@ -8,9 +8,9 @@
     "static/js/2.d1a38bd0.chunk.js": "/candid.io/static/js/2.d1a38bd0.chunk.js",
     "static/js/2.d1a38bd0.chunk.js.map": "/candid.io/static/js/2.d1a38bd0.chunk.js.map",
     "index.html": "/candid.io/index.html",
-    "precache-manifest.227b5e9cb50b8372971f76767db3c3ca.js": "/candid.io/precache-manifest.227b5e9cb50b8372971f76767db3c3ca.js",
+    "precache-manifest.ce8543f747ac598f991b9aa3eabcaad6.js": "/candid.io/precache-manifest.ce8543f747ac598f991b9aa3eabcaad6.js",
     "service-worker.js": "/candid.io/service-worker.js",
-    "static/css/main.976beab6.chunk.css.map": "/candid.io/static/css/main.976beab6.chunk.css.map",
+    "static/css/main.904c906e.chunk.css.map": "/candid.io/static/css/main.904c906e.chunk.css.map",
     "static/js/2.d1a38bd0.chunk.js.LICENSE.txt": "/candid.io/static/js/2.d1a38bd0.chunk.js.LICENSE.txt",
     "static/media/down-arrow.56ebd930.svg": "/candid.io/static/media/down-arrow.56ebd930.svg",
     "static/media/up-arrow.7461d5b8.svg": "/candid.io/static/media/up-arrow.7461d5b8.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.8a005c87.js",
     "static/js/2.d1a38bd0.chunk.js",
-    "static/css/main.976beab6.chunk.css",
+    "static/css/main.904c906e.chunk.css",
     "static/js/main.bc630df3.chunk.js"
   ]
 }
