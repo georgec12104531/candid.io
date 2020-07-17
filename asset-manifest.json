@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/georgec12104531/candid.io%20/static/css/main.6cc7f790.chunk.css",
-    "main.js": "/georgec12104531/candid.io%20/static/js/main.d2e6eed1.chunk.js",
-    "main.js.map": "/georgec12104531/candid.io%20/static/js/main.d2e6eed1.chunk.js.map",
-    "runtime-main.js": "/georgec12104531/candid.io%20/static/js/runtime-main.305bbda1.js",
-    "runtime-main.js.map": "/georgec12104531/candid.io%20/static/js/runtime-main.305bbda1.js.map",
-    "static/js/2.d1a38bd0.chunk.js": "/georgec12104531/candid.io%20/static/js/2.d1a38bd0.chunk.js",
-    "static/js/2.d1a38bd0.chunk.js.map": "/georgec12104531/candid.io%20/static/js/2.d1a38bd0.chunk.js.map",
-    "index.html": "/georgec12104531/candid.io%20/index.html",
-    "precache-manifest.1e95018217c665090753bc0e3a3e1c19.js": "/georgec12104531/candid.io%20/precache-manifest.1e95018217c665090753bc0e3a3e1c19.js",
-    "service-worker.js": "/georgec12104531/candid.io%20/service-worker.js",
-    "static/css/main.6cc7f790.chunk.css.map": "/georgec12104531/candid.io%20/static/css/main.6cc7f790.chunk.css.map",
-    "static/js/2.d1a38bd0.chunk.js.LICENSE.txt": "/georgec12104531/candid.io%20/static/js/2.d1a38bd0.chunk.js.LICENSE.txt",
-    "static/media/down-arrow.56ebd930.svg": "/georgec12104531/candid.io%20/static/media/down-arrow.56ebd930.svg",
-    "static/media/up-arrow.7461d5b8.svg": "/georgec12104531/candid.io%20/static/media/up-arrow.7461d5b8.svg"
+    "main.css": "/georgec12104531/candid.io/static/css/main.6cc7f790.chunk.css",
+    "main.js": "/georgec12104531/candid.io/static/js/main.97284e79.chunk.js",
+    "main.js.map": "/georgec12104531/candid.io/static/js/main.97284e79.chunk.js.map",
+    "runtime-main.js": "/georgec12104531/candid.io/static/js/runtime-main.8ea93b72.js",
+    "runtime-main.js.map": "/georgec12104531/candid.io/static/js/runtime-main.8ea93b72.js.map",
+    "static/js/2.d1a38bd0.chunk.js": "/georgec12104531/candid.io/static/js/2.d1a38bd0.chunk.js",
+    "static/js/2.d1a38bd0.chunk.js.map": "/georgec12104531/candid.io/static/js/2.d1a38bd0.chunk.js.map",
+    "index.html": "/georgec12104531/candid.io/index.html",
+    "precache-manifest.9416dbeef7c1ecb7fb6451bdb508f68b.js": "/georgec12104531/candid.io/precache-manifest.9416dbeef7c1ecb7fb6451bdb508f68b.js",
+    "service-worker.js": "/georgec12104531/candid.io/service-worker.js",
+    "static/css/main.6cc7f790.chunk.css.map": "/georgec12104531/candid.io/static/css/main.6cc7f790.chunk.css.map",
+    "static/js/2.d1a38bd0.chunk.js.LICENSE.txt": "/georgec12104531/candid.io/static/js/2.d1a38bd0.chunk.js.LICENSE.txt",
+    "static/media/down-arrow.56ebd930.svg": "/georgec12104531/candid.io/static/media/down-arrow.56ebd930.svg",
+    "static/media/up-arrow.7461d5b8.svg": "/georgec12104531/candid.io/static/media/up-arrow.7461d5b8.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.305bbda1.js",
+    "static/js/runtime-main.8ea93b72.js",
     "static/js/2.d1a38bd0.chunk.js",
     "static/css/main.6cc7f790.chunk.css",
-    "static/js/main.d2e6eed1.chunk.js"
+    "static/js/main.97284e79.chunk.js"
   ]
 }
