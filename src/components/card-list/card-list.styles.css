@@ -1,6 +1,6 @@
 .candidate-cards-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
   margin-left: 10%;
